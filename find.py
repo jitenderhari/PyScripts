@@ -1,10 +1,10 @@
-
 #!/usr/bin/env python
 # This program provides same functionality as "find / -name " command on *nix systems
 # This is  just a demo to showcase how we can manipulate and handle the 
-  unix/ OS processes by 'subprocess' module and its Popen method.
-  On Unix Systems Popen 'os.execvp()' like functionality , while on Windows this Popen class uses 'CreateProcess()'
-  function.
+
+# unix/ OS processes by 'subprocess' module and its Popen method.
+# on Unix Systems Popen 'os.execvp()' like functionality , while on Windows this Popen class uses 'CreateProcess()'
+# function.
 
 import subprocess
 import os
