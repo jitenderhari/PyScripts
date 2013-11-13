@@ -19,11 +19,11 @@ import os
     s = y.rstrip("\n")
     print("string", s)
     
-    #Popen ensures that evey new child program is served by the new process and 
+    #  Popen ensures that evey new child program is served by the new process and 
     # 'subprocess.PIPE' indicates that a pipe should be opened to the output stream
     find = subprocess.Popen([r"/usr/bin/find", "/", "-name", y, "-print"], stdout=subprocess.PIPE)
     
-    #loop over the all the paths returned by find 
+    #  loop over the all the paths returned by find 
     for line in find.stdout.readlines():
         print("line", line)
         l = line.rstrip("\n")
